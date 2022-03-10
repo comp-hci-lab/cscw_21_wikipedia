@@ -4,7 +4,7 @@ The datasets folder contains the sentences for the three tasks extracted from
 Wikipedia. These tasks correspond to "citations", "point-of-view", and
 "clarifications". Each row of the dataset files contain a Wikipedia sentence, a
 weakly extracted label for the specific task ('1' if the sentence needs the improvement, '0' otherwise), 
-section name, and additionally the Wikipedia revision from which the sentence is extracted. 
+It may additionally contain the article title, section name, and the Wikipedia revision from which the sentence is extracted. 
 
 Please cite the work if using the dataset
 
