@@ -8,7 +8,8 @@ two types of files:
   label, reivision id, aritcle title, and section name the example was extracted
 from. Note that **positive example** means that the sentence needs the specific
 improvement/edit (citation, neutral point-of-view or clarification)
-* \*\_data.tsv.gz contains both positive and negative examples mixed up.
+* \*\_data.tsv.gz contains both positive and negative examples mixed up, but
+  only sentences and label gauranteed for each task.
 
  sentences for the three tasks extracted from
 Wikipedia. These tasks correspond to "citations", "point-of-view", and
