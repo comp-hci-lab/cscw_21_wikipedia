@@ -1,6 +1,16 @@
 # cscw_21_wikipedia
 
-The datasets folder contains the sentences for the three tasks extracted from
+The datasets folder contains the datasets for the tasks.
+For each task of "citations", "point-of-view" and "clarifications", there are
+two types of files:
+
+* \*\_sentences.tsv.gz contains only positive examples for each task - sentence,
+  label, reivision id, aritcle title, and section name the example was extracted
+from. Note that **positive example** means that the sentence needs the specific
+improvement/edit (citation, neutral point-of-view or clarification)
+* \*\_data.tsv.gz contains both positive and negative examples mixed up.
+
+ sentences for the three tasks extracted from
 Wikipedia. These tasks correspond to "citations", "point-of-view", and
 "clarifications". Each row of the dataset files contain a Wikipedia sentence, a
 weakly extracted label for the specific task ('1' if the sentence needs the improvement, '0' otherwise), 
